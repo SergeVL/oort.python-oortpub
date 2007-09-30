@@ -5,7 +5,7 @@ import oort
 setup(
     name = "OortPub",
     version = oort.__version__,
-    description = """A WSGI-enabled toolkit for creating RDF-driven web apps.""",
+    description = """An Oort-based, WSGI-enabled toolkit for creating RDF-driven web apps.""",
     long_description = oort.__doc__,
     classifiers = [
         "Development Status :: 3 - Alpha",
