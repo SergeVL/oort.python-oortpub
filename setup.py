@@ -8,7 +8,7 @@ sys.setdefaultencoding('utf-8')
 
 setup(
     name = "OortPub",
-    version = "0.1",
+    version = "0.1.1",
     description = """An Oort-based, WSGI-enabled toolkit for creating RDF-driven web apps.""",
     long_description = """
     %s""" % "".join(open("README.txt")),
@@ -35,6 +35,7 @@ setup(
     url = "http://oort.to/",
     #packages = find_packages(exclude=["*.test", "*.test.*", "test.*", "test"]),
     packages = find_packages(),
+    namespace_packages = ['oort', 'oort.util', 'oort.test'],
     include_package_data = True,
     zip_safe = False,
     test_suite = 'nose.collector',
