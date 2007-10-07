@@ -1,12 +1,12 @@
 # -*- coding: UTF-8 -*-
 from setuptools import setup, find_packages
-import oort
 
 setup(
     name = "OortPub",
-    version = oort.__version__,
+    version = "0.1",
     description = """An Oort-based, WSGI-enabled toolkit for creating RDF-driven web apps.""",
-    long_description = oort.__doc__,
+    long_description = """
+    %s""" % "".join(open("README.txt")),
     classifiers = [
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
