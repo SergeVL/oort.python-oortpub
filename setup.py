@@ -33,10 +33,11 @@ setup(
     zip_safe = False,
     test_suite = 'nose.collector',
     install_requires = ['Oort >= 0.4',
-                      'Paste >= 1.0',
-                      'PasteScript >= 1.0',
-                      'Genshi >= 0.4'
-                      'setuptools'],
+                        'rdflib >= 2.4',
+                        'Paste >= 1.0',
+                        'PasteScript >= 1.0',
+                        'Genshi >= 0.4'
+                        'setuptools'],
     entry_points="""
         [paste.paster_create_template]
         oort_app=oort.util.paste_templates:OortAppTemplate
