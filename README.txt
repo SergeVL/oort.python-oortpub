@@ -127,3 +127,14 @@ Because RDF is a formidable technology that could revolutionize the way
 information is treated and shared. Python and WSGI are exemplary technologies 
 to use when building applications dealing with such data.
 
+More
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Se more examples (and test source code) at the `Oort Website`_.
+
+.. _`Oort Website`: http://oort.to
+
+The latest development version can be installed from the
+`OortPub SVN Trunk
+<http://oort.googlecode.com/svn/OortPub/trunk#egg=OortPub-dev>`_.
+
